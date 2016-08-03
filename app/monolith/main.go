@@ -19,8 +19,8 @@ const version = "1.0.0"
 
 func main() {
 	var (
-		httpAddr   = flag.String("http", "0.0.0.0:80", "HTTP service address.")
-		healthAddr = flag.String("health", "0.0.0.0:81", "Health service address.")
+		httpAddr   = flag.String("http", "0.0.0.0:10080", "HTTP service address.")
+		healthAddr = flag.String("health", "0.0.0.0:10081", "Health service address.")
 		secret     = flag.String("secret", "secret", "JWT signing secret.")
 	)
 	flag.Parse()
