@@ -27,3 +27,5 @@ _testmain.go
 # OSX specific
 .DS_Store
 
+# ignore compiled bins
+/app/bin/*
